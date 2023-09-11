@@ -10,9 +10,9 @@ body{
 .container {
     display: flex;
     justify-content: center;
-    align-items: center; /* Adicione esta linha para centralizar verticalmente */
+    align-items: center;
     flex-direction: column;
-    height: 100vh; /* Isso faz com que o conteúdo ocupe toda a altura da viewport */
+    height: 100vh;
 }
 
 .highlight {
@@ -69,8 +69,8 @@ button:hover span{
     color: #ffffff;
     transition: all ease 300ms;
 }
-button:hover::after{
-    width: 100%;
+button:hover::active{
+    color: #ffffff;
 }
 
 button:hover {
@@ -83,8 +83,9 @@ button:not(:hover) {
 }
 
 button:active {
-position: relative;
-box-shadow: none;
-top: 5px;
-transition: none;
+    background-color:#bb86fc ;
+    position: relative;
+    box-shadow: none;
+    top: 5px;
+    transition: none;
 }
