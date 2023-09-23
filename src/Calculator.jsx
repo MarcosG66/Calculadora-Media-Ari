@@ -65,10 +65,6 @@ function Calculator() {
         <option>SOCIOLOGIA</option>
         <option>GEOGRAFIA</option>
 
-
-
-
-
       </select>
       <div className="input-container">
         <div className="input-box">
@@ -112,9 +108,13 @@ function Calculator() {
         <p><span>NaN</span> significa <span>Not a Number</span>, mas no caso dessa aplicação, <span>NaN</span> é apenas um erro que ocorre quando algum dos espaços de nota está <span>vazio</span> ou <span>inadequado</span>.</p>
       </div>
       <footer>
-        <p>Essa aplicação não é de uso comercial e possui como único intuito prover maior praticidade para os alunos usuários na hora do cálculo de médias.</p>
-        <p>O código da aplicação está em <a></a>. Feedback dos usuários e sugestões de alteração são muito bem-vindas</p>
+        <div className="text-box">
+          <h2>Adendos</h2>
+          <p>Essa aplicação foi desenvolvida por um aluno e não é de uso comercial e possui como único intuito prover maior praticidade para os alunos usuários na hora do cálculo de médias.</p>
+          <p>O código da aplicação está em <a></a>. Feedback dos usuários e sugestões de alteração são muito bem-vindas.</p>
+        </div>
       </footer>
+
     </div>
   );
 }

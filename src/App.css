@@ -1,21 +1,26 @@
-body{
+  .container {
     background-color: white;
-}
-
-*{
-    color: #000000;
-    font-family: Helvetica, sans-serif;
-    
-}
-.container {
+    margin: 0;
+    min-width: 100% !important;
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-}
-
-.primary-btn {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  * {
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .primary-btn {
     font-family: Helvetica, sans-serif;
     height: 40px;
     width: 273px;
@@ -26,68 +31,68 @@ body{
     cursor: pointer;
     font-size: 14px;
     position: relative;
-    box-shadow: 0 5px 0 #034EA2 ;
-    color: white
-    ;
-}
-
-.primary-btn:active {
-    background-color:#2A94F4 ;
+    box-shadow: 0 5px 0 #034EA2;
+    color: white;
+  }
+  
+  .primary-btn:active {
+    background-color: #2A94F4;
     position: relative;
     box-shadow: none;
     top: 5px;
     transition: none;
-}
-
-
-.input-container {
+  }
+  
+  .input-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     gap: 10px;
     margin-bottom: 10px;
-}
-
-.input-box {
+  }
+  
+  .input-box {
     display: flex;
     flex-direction: column;
-}
-
-.input-box span {
+  }
+  
+  .input-box span {
     font-size: 30px;
-}
-.input-box input {
+  }
+  
+  .input-box input {
     color: black;
     font-size: 32px;
     height: 80px;
     width: 80px;
     border: none;
     text-align: center;
-    box-shadow: 0 0 6px lightgray; /* blur de 10px ao redor do elemento. */
+    box-shadow: 0 0 6px lightgray;
     border-radius: 3px;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
-input[type=number]{
+  }
+  
+  input[type=number] {
     -moz-appearance: textfield;
-}
-
-.title {
+  }
+  
+  .title {
     margin-bottom: -40px;
-}
-.media-final {
+  }
+  
+  .media-final {
     color: black;
     font-size: 70px;
     text-decoration: underline;
-
-}
-
-.nome{
+  }
+  
+  .nome {
     text-align: center;
     height: 30px;
     font-size: 22px;
@@ -98,23 +103,45 @@ input[type=number]{
     margin-left: 13px;
     outline: none;
     color: #034EA2;
-}
-
-.texto, footer{
+  }
+  
+  .texto {
     max-width: 278px;
-}
-
-.texto p {
+  }
+  
+  .texto p {
     margin-top: -12px;
-}
-
-.texto h2 {
+  }
+  
+  .texto h2 {
     line-height: 18px;
     font-size: 20px;
-}
-
-p span {
+  }
+  
+  p span {
     color: #2A94F4;
     font-weight: 600;
-}
-
+  }
+  
+  footer {
+    background: #121212;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+  
+  .text-box {
+    max-width: 278px;
+  }
+  
+  .text-box p {
+    color: white;
+  }
+  
+  .text-box h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
