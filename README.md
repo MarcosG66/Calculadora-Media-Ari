@@ -1,1 +1,2 @@
-# UseReducerDemo
+# Calculadora de Média Ari
+Essa aplicação foi desenvolvida por um aluno e não é de uso comercial e possui como único intuito prover maior praticidade para os alunos usuários na hora do cálculo de médias.

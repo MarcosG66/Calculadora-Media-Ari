@@ -111,7 +111,7 @@ function Calculator() {
         <div className="text-box">
           <h2>Adendos</h2>
           <p>Essa aplicação foi desenvolvida por um aluno e não é de uso comercial e possui como único intuito prover maior praticidade para os alunos usuários na hora do cálculo de médias.</p>
-          <p>O código da aplicação está em <a></a>. Feedback dos usuários e sugestões de alteração são muito bem-vindas.</p>
+          <p>O código da aplicação está em <a>https://MarcosG66.github.io/Calculadora-Media-Ari</a>. Feedback dos usuários e sugestões de alteração são muito bem-vindas.</p>
         </div>
       </footer>
 

@@ -145,3 +145,9 @@
     font-size: 20px;
     text-align: center;
   }
+
+  a {
+    color: #2A94F4;
+    font-weight: bold;
+    text-decoration: underline;
+  }
