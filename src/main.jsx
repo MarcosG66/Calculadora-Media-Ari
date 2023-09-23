@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Counter from './Counter.jsx'
+import Calculator from './Calculator.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Counter />
+    <Calculator />
   </React.StrictMode>,
 )
