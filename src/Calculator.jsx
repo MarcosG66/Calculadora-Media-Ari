@@ -3,7 +3,7 @@ import './App.css'
 
 
 
-function App() {
+function Calculator() {
   // Setando estados
   const [AP, setAP] = useState();
   const [AG, setAG] = useState();
@@ -176,4 +176,4 @@ return (
 );
 }
 
-export default App;
+export default Calculator; 
